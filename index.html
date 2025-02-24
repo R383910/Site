@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Mystique</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="navigation-runes">
+    <a class="nav-rune" onclick="showPage('home')">
+        <span class="rune-symbol">ᚨᚲᚲᚢᛖᛁᛚ</span>
+        <span class="rune-text">Accueil</span>
+    </a>
+    <a class="nav-rune" onclick="showPage('programming')">
+        <span class="rune-symbol">ᚷ</span>
+        <span class="rune-text">Code</span>
+    </a>
+    <a class="nav-rune" onclick="showPage('music')">
+        <span class="rune-symbol">ᚺ</span>
+        <span class="rune-text">ᛗᚢᛊᛁᚲᚢᛖ</span>
+    </a>
+</div>
+
+<div class="content">
+    <!-- Page Accueil -->
+    <div id="home" class="page active">
+        <div style="height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; position: relative;">
+            <h1 style="font-size: 5rem; margin-bottom: 1rem; position: relative; text-shadow:
+                    0 0 10px rgba(65, 105, 225, 0.5),
+                    0 0 20px rgba(65, 105, 225, 0.3),
+                    0 0 30px rgba(65, 105, 225, 0.2);">
+                Gabriel Messaoudi
+            </h1>
+            <div style="text-align: center; margin-bottom: 3rem; opacity: 0.8;">
+                <p style="font-size: 1.5rem; color: #87CEEB; margin-bottom: 0.5rem;">
+                    Développeur & Musicien
+                </p>
+                <p style="font-family: 'Norse', sans-serif; font-size: 2rem; color: #4169E1;">
+                    ᛞᛖᚢᛖᛚᛟᛈᛈᛖᚢᚱ ᛖᛏ ᛗᚢᛊᛁᚲᛁᛖᚾ
+                </p>
+            </div>
+            <div style="display: flex; gap: 2rem; margin-top: 2rem;">
+                <a class="action-button" onclick="showPage('programming')">
+                    <span style="position: relative; z-index: 2;">Découvrir mes projets</span>
+                </a>
+                <a class="action-button" onclick="showPage('music')">
+                    <span style="position: relative; z-index: 2;">Explorer ma musique</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Programmation -->
+    <div id="programming" class="page">
+        <h1>Projets de Programmation</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <a href="https://github.com/R383910/Site" target="_blank">
+                    <h2>Site</h2>
+                    <p>Découvrez mon site personnel présentant mon portfolio, mes projets et mon expertise en développement web.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/R383910/DataBase-Python-Manager" target="_blank">
+                    <h2>DataBase-Python-Manager</h2>
+                    <p>Un gestionnaire de bases de données SQLite en Python, alliant simplicité et performance pour vos applications.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://github.com/R383910/Boutique_NSI" target="_blank">
+                    <h2>Boutique_NSI</h2>
+                    <p>Un projet de boutique développé dans le cadre d'un cours de NSI, mettant en pratique des concepts de programmation avancée.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Page Musique -->
+    <div id="music" class="page">
+        <h1>Créations Musicales</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=_9TtaZb5Kvc" target="_blank">
+                    <h2>Hoist the Colours</h2>
+                    <p>Un remix de la version original</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=nY57KdDpuN0" target="_blank">
+                    <h2>Song of Durin</h2>
+                    <p>Un remix de la version original</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=1i1BASHFMHg" target="_blank">
+                    <h2>Hanging Tree Remix</h2>
+                    <p>Un remix de la version original</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=IRNHdNYO1cM" target="_blank">
+                    <h2>Storm of Mystic</h2>
+                    <p>Une création originale alliant atmosphère mystique et rythmes envoûtants pour transporter l'auditeur.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=jTELo_FKBeU" target="_blank">
+                    <h2>Power Nights</h2>
+                    <p>Une création originale dynamique qui fusionne énergie et mélodie, parfaite pour des soirées animées.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=tg4UHdtlr4w" target="_blank">
+                    <h2>Moto</h2>
+                    <p>Un morceau original puissant, inspiré par la liberté et la vitesse, pour des sensations fortes.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=NKlKc0pHmiE" target="_blank">
+                    <h2>Game</h2>
+                    <p>Une création originale immersive qui vous plonge dans un univers sonore riche et captivant.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=IKYzB1iYj00" target="_blank">
+                    <h2>Chinese New Year</h2>
+                    <p>Une création originale célébrant les sons festifs et traditionnels du Nouvel An chinois.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=F9OW-IAWxQY" target="_blank">
+                    <h2>Winter</h2>
+                    <p>Une création originale évoquant la beauté froide et mystérieuse de l'hiver à travers des sonorités uniques.</p>
+                </a>
+            </div>
+            <div class="project-card">
+                <a href="https://www.youtube.com/watch?v=Kb8_ztp2Dk0" target="_blank">
+                    <h2>Ambiance Oriental</h2>
+                    <p>Un voyage musical au cœur de l'Orient, riche en émotions et en atmosphères envoûtantes.</p>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
